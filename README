@@ -1,0 +1,48 @@
+Path Tracing na GPU
+
+Struktura DVD
+-------------------------------------------
+PathTracing_bin (Spustitelný soubor, funkční na OS Windows 10 64-bit)
+  model - adresář obsahující 3D modely
+  screenshots - adresář pro ukládání screenshotů
+  shaders - adresář obsahující zdrojové kódy shader programů
+  glew32.dll - DLL soubor potřebný k běhu aplikace
+  PathTracing.exe - spustitelný soubor
+
+PathTracing_linux (adresář se zdrojovými kódy, makefilem, testováno na OS Ubuntu 16.04 64-bit)
+  model - adresář obsahující 3D modely
+  screenshots - adresář pro ukládání screenshotů
+  src - adresář se zdrojovými kódy
+  Makefile - makefile pro sestavení aplikace
+  PathTracing - spustitelný soubor
+
+PathTracing_VS2015 (Projekt pro Visual Studio 2015)
+  include - adresář obsahující hlavičkové soubory
+  lib - adresář s použitými knihovnami
+  model - adresář s 3D modely
+  PathTracing - adresář se soubory VS
+  screenshots - adresář pro ukládání screenshotů
+  src - zdrojové kódy aplikace
+  PathTracing.sln - solution soubor projektu
+
+LICENSE - soubor s licencí
+Path Tracing na GPU.pdf - elektronická verze technické zprávy
+Path Tracing video.mkv - video prezentující aplikaci
+README
+
+
+Ovladaní aplikace
+-------------------------------------------
+W, A, S, D / myš - pohyb kamerou
+I, J, K, L - pohyb zdrojem světla
+T - změna barev zdí
+P - uložení screenshotu
+
+
+Scény aplikace
+-------------------------------------------
+1 - koule v Cornell boxu
+2 - Stanford bunny (336 trojúhelníků) v Cornell boxu
+3 - model jelena (1 503 trojúhelníků) v Cornell boxu
+4 - model teleskopu (13 812 trojúhelníků) v Cornell boxu
+5 - Stanford dragon (100 000 tojúhelníků) v Cornell boxu (delší doba načítání)
